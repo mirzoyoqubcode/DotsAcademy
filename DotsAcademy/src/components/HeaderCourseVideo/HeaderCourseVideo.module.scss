@@ -1,0 +1,31 @@
+.section_video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.video_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2rem;
+  article {
+    iframe {
+      max-width: 450px;
+      overflow: hidden;
+      border-radius: 20px;
+    }
+  }
+}
+.btn_video {
+  padding: 1rem 2rem;
+  font-size: 35px;
+  margin: 2rem 0;
+  border-radius: 20px;
+  background: #946cee;
+  outline: none;
+  border: 1px solid #946cee;
+  color: white;
+  cursor: pointer;
+}
